@@ -1,0 +1,183 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Regression" verbose="1">
+    <test name = "UITest">
+        <classes>
+
+            <class name ="com.internet.herokuapp.testCases.ABTesting">
+                <methods>
+                    <include name="ABTesting" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.AddRemoveElements">
+                <methods>
+                    <include name="AddRemoveElements" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.BasicAuth">
+                <methods>
+                    <include name="BasicAuth" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.BrokenImage">
+                <methods>
+                    <include name="BrokenImage" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.Checkboxes">
+                <methods>
+                    <include name="Checkboxes" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.ContextMenu">
+                <methods>
+                    <include name="ContextMenu" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.DisappearingElements">
+                <methods>
+                    <include name="DisappearingElements" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.DragAndDrop">
+                <methods>
+                    <include name="DragAndDrop" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.DropDown">
+                <methods>
+                    <include name="DropDown" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.FileDownload">
+                <methods>
+                    <include name="FileDownload" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.FileUpload">
+                <methods>
+                    <include name="FileUpload" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.ForgotPassword">
+                <methods>
+                    <include name="ForgotPassword" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.FormAuth">
+                <methods>
+                    <include name="FormAuth" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.FullPageScreenshot">
+                <methods>
+                    <include name="FullPageScreenshot" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.HorizontalSlider">
+                <methods>
+                    <include name="HorizontalSlider" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.Iframe">
+                <methods>
+                    <include name="Iframe" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.InfiniteScroll">
+                <methods>
+                    <include name="InfiniteScroll" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.Input">
+                <methods>
+                    <include name="Input" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.JavaScriptAlert">
+                <methods>
+                    <include name="JavaScriptAlert" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.MouseHover">
+                <methods>
+                    <include name="MouseHover" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.MultipleWindows">
+                <methods>
+                    <include name="MultipleWindows" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.NestedFrames">
+                <methods>
+                    <include name="NestedFrames" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.NotificationMessage">
+                <methods>
+                    <include name="NotificationMessage" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.RedirectLink">
+                <methods>
+                    <include name="RedirectLink" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.ScreenshotOfAnElement">
+                <methods>
+                    <include name="ScreenshotOfAnElement" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.ScreenshotOfWebpage">
+                <methods>
+                    <include name="ScreenshotOfWebpage" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.ScrollInACertainSpace">
+                <methods>
+                    <include name="ScrollInACertainSpace" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.UserAbleToClickOnCreateNewAccount">
+                <methods>
+                    <include name="UserAbleToClickOnCreateNewAccount" />
+                </methods>
+            </class>
+
+            <class name ="com.internet.herokuapp.testCases.UserAbleToClickOnForgetPassword">
+                <methods>
+                    <include name="UserAbleToClickOnForgetPassword" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
